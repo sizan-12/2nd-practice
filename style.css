@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-area {
+    display: flex;
+}
+img .healthy-food-img{
+    width: 350px;
+}
