@@ -5,6 +5,7 @@
 }
 .top-area {
     display: flex;
+    margin-top: 100px;
 }
 .healthy-food-img{
     width: 755px;
@@ -12,7 +13,6 @@
 .w-50 {
     width: 50%;
     margin-left: 100px;
-    margin-top: 100px;
 }
 .top-area .w-50 h1 {
     font-size: 50px;
@@ -28,4 +28,70 @@
     border-radius: 50px;
     margin-top: 25px;
     display: inline-block;
+    color: #fff;
 }
+.about-us-area {
+    display: flex;
+    margin-top: 70px;
+    height: 500px;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.male-img {
+    width: 285px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+.about-us-area .about-us-right-content {
+    margin-top: 100px;
+}
+.about-us-area .about-us-right-content p {
+    margin-top: 27px;
+}
+.about-us-area .about-us-right-content a {
+    margin-top: 60px;
+    display:inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(#2ecc71,#27ae60);
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+.my-recipie-area {
+    margin-top: 70px;
+    text-align: center;
+}
+.my-recipie-area h2 {
+    margin-bottom: 25px;
+}
+.menu-area {
+    display: flex;
+    margin-top: 50px;
+}
+.w-40 {
+    width: 40%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+}
+.w-40 img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 26px;
+}
+.menu-title {
+    padding-left: 26px;
+}
+.w-40 h3 {
+    margin-bottom: 20px;
+}
+.w-40 p {
+    margin-bottom: 30px;
+}
+
+
